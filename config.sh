@@ -92,7 +92,6 @@ function pre_build {
   if [ -n "$IS_OSX" ]; then
     echo "Running for OSX"
 
-    brew update --force
     brew_add_local_bottles
 
     # Don't query analytical info online on `brew info`,
